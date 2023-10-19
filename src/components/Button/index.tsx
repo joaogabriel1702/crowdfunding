@@ -11,7 +11,7 @@ type ButtonProps = {
 
 const variants = {
     primary: "border border-sub-30 bg-on-code hover:bg-on-code-70 text-white gap-1",
-    secondary: "border border-secondary text-black gap-3 hover:bg-on-code-70",
+    secondary: "border border-secondary text-black gap-3 hover:bg-on-code-70 hover:text-white",
 }
 
 const Button = ({ variant = "primary", children, iconLeft, iconRight, ...props}: ButtonProps) => {
