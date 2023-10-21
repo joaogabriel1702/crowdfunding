@@ -1,3 +1,5 @@
+'use client'
+
 type CardProps = {
     children: React.ReactNode,
 } & React.HTMLAttributes<HTMLDivElement>

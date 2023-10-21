@@ -13,10 +13,17 @@ const config: Config = {
         secondary: 'var(--secondary-color)',
         'sub-30': 'var(--sub-30)',
         sub: 'var(--sub)',
+        'black-color': 'var(--black-color)',
       },
       backgroundImage: {
         'on-code': 'var(--on-code)',
         'on-code-70': 'var(--on-code-70)',
+      },
+      aspectRatio: {
+        'card-image': '420px / 240px',
+      },
+      height: {
+        'screen-navbar': 'calc(100vh - 64px)!important',
       },
     },
   },
