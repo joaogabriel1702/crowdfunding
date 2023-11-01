@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import ActionCard from './components/ActionCard'
 import ProblemItem from './components/ProblemCard'
+import UserComment from '@/components/UserComment'
 
 export default function Home() {
 
